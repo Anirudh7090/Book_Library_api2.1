@@ -1,0 +1,16 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+sqlalchemy==2.0.22
+alembic==1.11.1
+psycopg2-binary==2.9.6
+python-jose==3.3.0
+bcrypt==4.0.1
+pydantic==1.10.11
+
+-fastapi and uvicorn for the web framework and server
+-sqlalchemy as ORM
+-alembic for database migrations
+-psycopg2-binary PostgreSQL driver
+-python-jose for JWT handling
+-bcrypt for password hashing
+-pydantic for data validation

@@ -1,0 +1,860 @@
+2025-08-21 19:28:44,869 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-08-21 19:28:44,869 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-08-21 19:28:44,960 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-08-21 19:28:44,961 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-08-21 19:29:04,269 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-08-21 19:29:04,270 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-08-21 19:29:04,303 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-08-21 19:29:04,303 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-08-21 19:32:39,897 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-08-21 19:32:39,898 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-08-21 19:32:49,890 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 19:32:49,890 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 19:32:49,967 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 19:32:49,974 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 19:33:40,715 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 19:33:40,716 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 19:33:40,793 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 19:33:40,793 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 19:44:29,604 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 19:44:29,605 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 19:44:29,682 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 19:44:29,682 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 19:59:15,767 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 19:59:15,771 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 19:59:35,658 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 19:59:35,660 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 20:00:43,762 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:00:43,769 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:01:00,714 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:01:00,714 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:01:00,828 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:01:00,829 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:03:26,481 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:03:26,483 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 20:07:37,792 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:07:37,795 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 20:14:52,695 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:14:52,695 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:14:52,809 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:14:52,815 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:16:39,272 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:16:39,288 - INFO - Created book 'The Great Gatsby' by F. Scott Fitzgerald
+2025-08-21 20:16:39,289 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:18:44,659 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:18:44,669 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:19:43,270 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=The%20Great%20Gatsby
+2025-08-21 20:19:43,280 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=The%20Great%20Gatsby with status 200
+2025-08-21 20:20:27,133 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/1
+2025-08-21 20:20:27,146 - INFO - Deleted book id 1
+2025-08-21 20:20:27,147 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:20:39,923 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:20:39,925 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:22:10,513 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:22:10,526 - INFO - Created book 'Avengers' by Anirudh
+2025-08-21 20:22:10,527 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:23:23,874 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:23:23,883 - INFO - Created book 'Conjuring' by Sohan
+2025-08-21 20:23:23,885 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:24:29,490 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:24:29,498 - INFO - Created book 'Thor' by Anant
+2025-08-21 20:24:29,499 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:25:13,401 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:25:13,413 - INFO - Created book 'Black Widow' by Anirudh
+2025-08-21 20:25:13,415 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:26:34,823 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:26:34,833 - INFO - Created book 'Iron Man' by Arsh
+2025-08-21 20:26:34,835 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:27:10,739 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&author=Anirudh
+2025-08-21 20:27:10,742 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&author=Anirudh with status 200
+2025-08-21 20:48:21,144 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:48:21,154 - INFO - Created book 'Iron Man 2' by Anirudh
+2025-08-21 20:48:21,155 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:48:40,793 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:48:40,793 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:48:40,915 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:48:40,915 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:49:05,842 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Anirudh
+2025-08-21 20:49:05,845 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Anirudh with status 200
+2025-08-21 20:50:12,544 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:50:12,547 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:50:35,134 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:50:35,136 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:51:03,469 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers
+2025-08-21 20:51:03,471 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers with status 200
+2025-08-21 20:51:56,005 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1?Avengers=1
+2025-08-21 20:51:56,007 - INFO - Completed request: GET http://127.0.0.1:8000/books/1?Avengers=1 with status 200
+2025-08-21 20:52:07,270 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:52:07,270 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:52:07,394 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:52:07,395 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:52:16,463 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers
+2025-08-21 20:52:16,466 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers with status 200
+2025-08-21 20:53:00,783 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 20:53:00,785 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 20:53:16,847 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:53:16,849 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:53:26,767 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:53:26,768 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:54:31,011 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/1
+2025-08-21 20:54:31,034 - INFO - Deleted book id 1
+2025-08-21 20:54:31,035 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:55:03,612 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/1
+2025-08-21 20:55:03,614 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:55:08,524 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:55:08,527 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:55:20,009 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:55:20,011 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:55:27,642 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 20:55:27,644 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:09:42,285 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 21:09:42,286 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 21:09:42,343 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 21:09:42,349 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 21:11:18,516 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/2
+2025-08-21 21:11:18,537 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:11:42,347 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 21:11:42,349 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:12:42,413 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/2
+2025-08-21 21:12:42,424 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:16:21,695 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/2
+2025-08-21 21:16:21,703 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 22:11:30,109 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 22:11:30,109 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 22:11:30,178 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 22:11:30,185 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 22:11:56,022 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 22:11:56,031 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 404
+2025-08-21 22:13:45,077 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 22:13:45,080 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 22:14:30,694 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 22:14:30,714 - INFO - Created book 'Iron Man 2' by Anirudh
+2025-08-21 22:14:30,714 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 22:15:07,972 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 22:15:07,973 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 22:16:06,613 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/1
+2025-08-21 22:16:06,623 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 22:16:28,693 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 22:16:28,693 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 22:25:04,092 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 22:25:04,096 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-22 00:50:06,878 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-22 00:50:06,880 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-22 00:50:07,014 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-22 00:50:07,025 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-22 00:50:17,982 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-22 00:50:17,996 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-22 14:11:55,227 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-22 14:11:55,233 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-22 14:11:55,451 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-22 14:11:55,467 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-22 14:12:33,984 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-22 14:12:34,006 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 404
+2025-08-22 14:12:48,721 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-22 14:12:48,731 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-22 14:13:35,768 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-22 14:13:35,778 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-22 14:13:46,382 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-22 14:13:46,395 - INFO - Created book 'Iron Man 3' by Anirudhp
+2025-08-22 14:13:46,409 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-22 14:14:50,434 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-22 14:14:50,457 - INFO - Created book 'Black Widow' by Sohan
+2025-08-22 14:14:50,462 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-22 14:15:32,552 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-22 14:15:32,559 - INFO - Created book 'Black Widow 2' by Sohan
+2025-08-22 14:15:32,565 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-22 14:16:21,913 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-22 14:16:21,917 - INFO - Created book 'spider Man' by Anant
+2025-08-22 14:16:21,928 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-22 14:17:35,106 - INFO - Incoming request: GET http://127.0.0.1:8000/books/5
+2025-08-22 14:17:35,106 - INFO - Completed request: GET http://127.0.0.1:8000/books/5 with status 200
+2025-08-22 14:18:20,018 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/5
+2025-08-22 14:18:20,041 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/5 with status 200
+2025-08-22 14:19:41,862 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-22 14:19:41,867 - INFO - Created book 'Iron Man 5' by Anirudhp
+2025-08-22 14:19:41,875 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-22 14:19:59,742 - INFO - Incoming request: GET http://127.0.0.1:8000/books/5
+2025-08-22 14:19:59,754 - INFO - Completed request: GET http://127.0.0.1:8000/books/5 with status 200
+2025-08-22 14:20:11,635 - INFO - Incoming request: GET http://127.0.0.1:8000/books/5/6
+2025-08-22 14:20:11,635 - INFO - Completed request: GET http://127.0.0.1:8000/books/5/6 with status 404
+2025-08-22 14:20:20,731 - INFO - Incoming request: GET http://127.0.0.1:8000/books/5,6
+2025-08-22 14:20:20,731 - INFO - Completed request: GET http://127.0.0.1:8000/books/5,6 with status 422
+2025-08-22 14:20:31,269 - INFO - Incoming request: GET http://127.0.0.1:8000/books/6
+2025-08-22 14:20:31,281 - INFO - Completed request: GET http://127.0.0.1:8000/books/6 with status 200
+2025-08-22 14:20:49,517 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/6
+2025-08-22 14:20:49,533 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/6 with status 200
+2025-08-22 14:21:48,126 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/6
+2025-08-22 14:21:48,134 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/6 with status 200
+2025-08-22 14:22:13,459 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-22 14:22:13,472 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-22 14:24:16,780 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&genre=Adventure&author=Anirudhp
+2025-08-22 14:24:16,790 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&genre=Adventure&author=Anirudhp with status 200
+2025-08-29 12:54:56,815 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-29 12:54:56,816 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-29 12:54:57,616 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-29 12:54:57,624 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-29 12:56:19,671 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-29 12:56:19,680 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-29 12:56:30,358 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-29 12:56:30,384 - INFO - Created book 'LGBTQ+' by Atharv
+2025-08-29 12:56:30,385 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-29 12:56:54,342 - INFO - Incoming request: GET http://127.0.0.1:8000/books/7
+2025-08-29 12:56:54,349 - INFO - Completed request: GET http://127.0.0.1:8000/books/7 with status 200
+2025-08-29 12:58:21,239 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=atharv
+2025-08-29 12:58:21,254 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=atharv with status 200
+2025-08-29 13:00:15,546 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-29 13:00:15,553 - INFO - Created book 'The Family Man' by Anirudhp
+2025-08-29 13:00:15,554 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-29 13:00:37,967 - INFO - Incoming request: GET http://127.0.0.1:8000/books/8
+2025-08-29 13:00:37,972 - INFO - Completed request: GET http://127.0.0.1:8000/books/8 with status 200
+2025-08-29 13:00:44,163 - INFO - Incoming request: GET http://127.0.0.1:8000/books/7
+2025-08-29 13:00:44,167 - INFO - Completed request: GET http://127.0.0.1:8000/books/7 with status 200
+2025-08-29 13:01:12,211 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/7
+2025-08-29 13:01:12,228 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/7 with status 200
+2025-08-29 13:01:33,237 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/7
+2025-08-29 13:01:33,246 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/7 with status 200
+2025-09-02 14:17:00,826 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:17:00,827 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:17:00,963 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:17:00,971 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:17:59,208 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:17:59,208 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:17:59,346 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:17:59,346 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:22:57,740 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-02 14:22:57,969 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 201
+2025-09-02 14:30:33,202 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:30:33,203 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:30:33,310 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:30:33,310 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:30:38,877 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:30:38,878 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:30:39,023 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:30:39,023 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:31:23,918 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:31:23,919 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:31:23,992 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:31:23,992 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:41:14,198 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:41:14,199 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:41:14,272 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:41:14,272 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:42:08,235 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:42:08,236 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:42:08,313 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:42:08,313 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:53:54,469 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:53:54,469 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:53:54,573 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:53:54,573 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 14:54:05,937 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 14:54:05,938 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 14:54:06,098 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 14:54:06,099 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:12:42,043 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:12:42,044 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:12:42,148 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:12:42,148 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:19:47,580 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-09-02 15:19:47,581 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-09-02 15:19:47,789 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-09-02 15:19:47,789 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-09-02 15:20:04,446 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:20:04,446 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:20:04,588 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:20:04,589 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:20:51,636 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:20:51,636 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:20:51,712 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:20:51,712 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:21:03,913 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:21:03,914 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:21:04,619 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:21:04,620 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:23:50,569 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:23:50,570 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:23:50,635 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:23:50,635 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:24:49,517 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:24:49,518 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:24:49,577 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:24:49,577 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:28:10,085 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:28:10,086 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:28:10,820 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:28:10,821 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 15:42:42,906 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 15:42:42,906 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 15:42:42,982 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 15:42:42,982 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 16:44:15,573 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 16:44:15,573 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 16:44:15,652 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 16:44:15,652 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 16:50:18,711 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 16:50:18,712 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 16:50:18,817 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 16:50:18,817 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 16:50:31,169 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 16:50:31,170 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 16:50:31,787 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 16:50:31,788 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 16:57:20,352 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 16:57:20,352 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 16:57:20,444 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-09-02 16:57:20,444 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-09-02 16:57:30,620 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 16:57:30,620 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 16:57:30,764 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 16:57:30,764 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:10:39,369 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:10:39,371 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:10:40,447 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:10:40,457 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:15:01,001 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-02 18:15:01,236 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-02 18:26:06,333 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:26:06,333 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:26:06,450 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:26:06,450 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:26:11,202 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:26:11,202 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:26:11,257 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:26:11,257 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:26:12,255 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:26:12,255 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:26:12,290 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:26:12,291 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:26:18,627 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:26:18,628 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:26:18,707 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:26:18,707 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:26:51,222 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:26:51,224 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:26:51,337 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:26:51,337 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:40:32,438 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:40:32,438 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:40:32,552 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:40:32,563 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:41:19,922 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-02 18:41:20,143 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-02 18:45:06,598 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-02 18:45:06,600 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 422
+2025-09-02 18:45:14,878 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-02 18:45:15,088 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-02 18:45:45,651 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-02 18:45:45,651 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-02 18:45:45,777 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-02 18:45:45,777 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-02 18:45:52,394 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-02 18:45:52,598 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 11:58:14,094 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 11:58:14,097 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 11:58:14,227 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 11:58:14,264 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:00:12,886 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:00:13,869 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:07:37,960 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:07:37,977 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:07:48,484 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:07:48,491 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:14:01,861 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:14:02,825 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:14:09,927 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:14:09,930 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:16:08,238 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-03 12:16:09,234 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 201
+2025-09-03 12:16:20,233 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 12:16:20,233 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 12:16:20,435 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 12:16:20,438 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:17:09,482 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:17:09,487 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 400
+2025-09-03 12:18:32,099 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:18:32,107 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 400
+2025-09-03 12:18:47,126 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:18:47,129 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 400
+2025-09-03 12:19:26,848 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:19:27,776 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:21:14,888 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:21:15,849 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:21:43,832 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:21:43,837 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:25:12,112 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 12:25:12,112 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 12:25:12,274 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 12:25:12,275 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:25:54,649 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:25:55,566 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 400
+2025-09-03 12:26:08,233 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:26:09,168 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:26:35,390 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:26:35,396 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:26:50,409 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:26:50,412 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:26:59,799 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 12:26:59,799 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 12:26:59,876 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 12:26:59,879 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:27:15,393 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:27:15,399 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:27:23,645 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:27:23,650 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:37:27,703 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 12:37:27,703 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 12:37:27,886 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 12:37:27,888 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:37:28,612 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 12:37:28,612 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 12:37:28,674 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 12:37:28,674 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:37:35,060 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:37:36,025 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:37:53,264 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:37:53,269 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 12:39:26,971 - INFO - Incoming request: GET http://127.0.0.1:8000/books/4
+2025-09-03 12:39:26,972 - INFO - Completed request: GET http://127.0.0.1:8000/books/4 with status 401
+2025-09-03 12:39:45,371 - INFO - Incoming request: GET http://127.0.0.1:8000/books/4
+2025-09-03 12:39:45,372 - INFO - Completed request: GET http://127.0.0.1:8000/books/4 with status 401
+2025-09-03 12:42:52,820 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 12:42:52,822 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 12:42:52,936 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 12:42:52,966 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:45:01,745 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-03 12:45:02,751 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 201
+2025-09-03 12:46:16,379 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:46:16,388 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 400
+2025-09-03 12:48:46,596 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 12:48:46,596 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 12:48:46,692 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 12:48:46,692 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 12:49:25,275 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-03 12:49:26,210 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 201
+2025-09-03 12:51:10,745 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:51:11,720 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:53:05,767 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 12:53:06,727 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 12:53:44,150 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 12:53:44,162 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 13:01:16,056 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 13:01:16,056 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 13:01:16,147 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 13:01:16,155 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 13:01:57,755 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 13:01:58,767 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 13:02:26,924 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 13:02:26,942 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 401
+2025-09-03 13:08:06,236 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 13:08:06,236 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 13:08:06,378 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 13:08:06,406 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 13:09:02,463 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-03 13:09:03,477 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 201
+2025-09-03 13:10:06,252 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 13:10:07,183 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 13:10:46,323 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 13:10:47,243 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 13:11:10,238 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 13:11:10,260 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 13:11:17,751 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 13:11:17,780 - INFO - Created book 'New Book' by Atharv
+2025-09-03 13:11:17,780 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-09-03 13:42:23,816 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 13:42:23,816 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 13:42:23,887 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 13:42:23,891 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 13:42:26,550 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 13:42:26,554 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 13:42:26,583 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 13:42:26,583 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 13:42:35,141 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 13:42:35,144 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 13:42:35,210 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 13:42:35,210 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 13:47:08,254 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-03 13:47:08,484 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 201
+2025-09-03 13:50:26,008 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 13:50:26,008 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 13:50:26,111 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 13:50:26,111 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 13:50:34,228 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-03 13:50:34,428 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 201
+2025-09-03 14:31:00,789 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 14:31:00,789 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 14:31:00,953 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 14:31:00,961 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 14:33:12,931 - INFO - Incoming request: POST http://127.0.0.1:8000/users/register
+2025-09-03 14:33:12,932 - INFO - Completed request: POST http://127.0.0.1:8000/users/register with status 422
+2025-09-03 14:35:11,431 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 14:35:11,431 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 14:35:11,474 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 14:35:11,474 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 14:35:12,947 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 14:35:12,947 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 14:35:12,969 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 14:35:12,969 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 14:36:14,678 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 14:36:14,897 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 14:36:46,866 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 14:36:47,076 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 14:37:33,381 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/4
+2025-09-03 14:41:14,932 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 14:41:14,932 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 14:41:15,044 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 14:41:15,052 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 14:41:15,616 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 14:41:15,616 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 14:41:15,672 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 14:41:15,672 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 14:42:10,322 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 14:42:10,542 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 14:42:32,705 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 14:42:32,903 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 14:42:47,954 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/4
+2025-09-03 14:42:47,954 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/4 with status 403
+2025-09-03 14:43:47,415 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 14:43:47,415 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 14:43:47,461 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 14:43:47,462 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 14:43:48,706 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 14:43:48,706 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 14:43:48,739 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 14:43:48,739 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 14:44:36,240 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 14:44:36,457 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 14:44:54,358 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 14:44:54,571 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 14:45:06,467 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/4
+2025-09-03 14:45:06,476 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/4 with status 404
+2025-09-03 14:45:21,915 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/5
+2025-09-03 14:45:21,915 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/5 with status 404
+2025-09-03 14:45:28,043 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/6
+2025-09-03 14:45:28,052 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/6 with status 404
+2025-09-03 14:45:57,720 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 14:45:57,722 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 14:46:02,991 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 14:46:02,998 - INFO - Created book 'New Book' by Atharv
+2025-09-03 14:46:02,998 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-09-03 14:46:31,004 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/2
+2025-09-03 14:46:31,014 - INFO - Deleted book id 2
+2025-09-03 14:46:31,014 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/2 with status 200
+2025-09-03 15:37:53,332 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 15:37:53,333 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 15:37:53,487 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 15:37:53,497 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 15:37:59,806 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 15:37:59,806 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 15:37:59,856 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 15:37:59,857 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 15:38:53,523 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 15:38:53,760 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 15:39:18,132 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 15:39:18,325 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 15:43:35,018 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 15:43:35,020 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 15:43:42,866 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 15:43:48,996 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 15:46:02,341 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 15:46:06,395 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 15:46:06,397 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 15:46:21,005 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 16:37:51,512 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 16:37:51,512 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 16:37:51,633 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 16:37:51,633 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 16:37:52,838 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 16:37:52,838 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 16:37:52,899 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 16:37:52,899 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 16:39:01,333 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 16:39:01,549 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 16:39:20,694 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 16:39:20,908 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 16:40:12,524 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 16:40:12,530 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 16:40:19,133 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 16:46:05,085 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 16:46:05,085 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 16:46:05,194 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 16:46:05,194 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 16:46:45,727 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 16:46:45,933 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 16:53:42,724 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 16:53:42,724 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 16:53:42,832 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 16:53:42,832 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 16:54:26,386 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 16:54:26,599 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 16:54:52,998 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 16:54:53,202 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 16:55:28,261 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 16:55:28,263 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 16:55:33,659 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:07:29,974 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 17:07:29,982 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 17:07:30,081 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 17:07:30,081 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 17:08:07,653 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:08:07,876 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:08:17,356 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:08:17,563 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:08:43,999 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:08:44,001 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 17:08:47,561 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:11:45,256 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:11:50,737 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:11:50,740 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 17:11:54,656 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:20:26,824 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 17:20:26,826 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 17:20:26,937 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 17:20:26,938 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 17:21:07,464 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:21:07,674 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:21:43,060 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:21:43,264 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:22:40,623 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:22:40,629 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 17:22:44,902 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:25:06,842 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:25:16,650 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:25:21,097 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:28:18,999 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:28:56,639 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-09-03 17:28:56,649 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-09-03 17:29:10,213 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:29:10,216 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 17:29:15,232 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:33:36,864 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 17:33:36,864 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 17:33:37,024 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 17:33:37,026 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 17:34:40,851 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:34:41,061 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:35:09,710 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:35:09,920 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:35:56,301 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:35:59,983 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:35:59,986 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 17:36:04,168 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:48:31,514 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 17:48:31,514 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 17:48:31,620 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 17:48:31,620 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 17:48:53,973 - INFO - Incoming request: GET http://127.0.0.1:8000/test-logging
+2025-09-03 17:48:53,973 - INFO - Completed request: GET http://127.0.0.1:8000/test-logging with status 404
+2025-09-03 17:48:54,002 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-09-03 17:48:54,002 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-09-03 17:49:08,282 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 17:49:08,282 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 17:49:08,426 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 17:49:08,426 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 17:50:03,872 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:50:04,076 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:50:25,626 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 17:50:25,830 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 17:50:51,964 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:50:51,969 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 17:50:55,750 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 17:59:36,924 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-03 17:59:36,924 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 404
+2025-09-03 17:59:56,668 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-03 17:59:56,668 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 404
+2025-09-03 18:10:27,213 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-03 18:10:27,213 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 404
+2025-09-03 18:13:27,163 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-03 18:13:27,163 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 404
+2025-09-03 18:13:51,654 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-03 18:13:51,655 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 404
+2025-09-03 18:13:51,744 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-09-03 18:13:51,744 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-09-03 18:16:38,453 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-03 18:16:38,453 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 404
+2025-09-03 18:23:58,365 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-03 18:23:58,372 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 200
+2025-09-03 18:23:58,397 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-09-03 18:23:58,397 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-09-03 18:27:59,336 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 18:27:59,339 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 18:28:00,993 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 18:28:01,006 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 18:29:06,988 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 18:29:07,234 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 18:29:28,993 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 18:29:29,192 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 18:30:20,743 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 18:30:20,752 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 18:30:25,088 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 18:30:25,111 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 500
+2025-09-03 18:47:10,215 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 18:47:10,215 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 18:47:12,335 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 18:47:12,345 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 18:48:00,581 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 18:48:00,804 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 18:48:11,649 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 18:48:11,848 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 18:48:38,620 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 18:48:38,623 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 18:48:43,500 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 18:48:43,520 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 500
+2025-09-03 19:02:54,904 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-03 19:02:54,905 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-03 19:02:56,612 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-03 19:02:56,622 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-03 19:03:43,857 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 19:03:44,080 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 19:03:57,003 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-03 19:03:57,207 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-03 19:04:24,356 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 19:04:24,359 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-09-03 19:04:29,585 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 19:04:29,607 - INFO - Created book 'New Book' by authors ['Atharv']
+2025-09-03 19:04:29,614 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-09-03 19:07:06,388 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-09-03 19:07:06,403 - INFO - Created book 'Collaborative Book' by authors ['Alice Johnson', 'Bob Lee']
+2025-09-03 19:07:06,409 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-09-03 19:07:40,738 - INFO - Incoming request: GET http://127.0.0.1:8000/books/20
+2025-09-03 19:07:40,745 - INFO - Completed request: GET http://127.0.0.1:8000/books/20 with status 200
+2025-09-04 11:34:36,939 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 11:34:36,942 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 11:34:38,461 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 11:34:38,473 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 11:35:54,411 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 11:37:42,034 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 11:37:42,035 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 11:37:42,136 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 11:37:42,136 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 11:38:30,949 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 11:38:31,184 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 11:38:53,351 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 11:38:53,557 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 11:39:25,898 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 12:10:10,100 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 12:10:10,101 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 12:10:12,800 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 12:10:12,813 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 12:11:06,405 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 12:11:06,635 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 12:11:17,552 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 12:11:17,759 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 12:11:44,153 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 12:22:16,935 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 12:22:16,936 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 12:22:17,053 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 12:22:17,054 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 12:23:36,535 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 12:23:36,748 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 12:29:09,678 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 12:29:09,679 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 12:29:09,805 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 12:29:09,805 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 12:29:55,272 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 12:29:55,482 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 12:30:21,210 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 12:30:21,416 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 12:30:48,305 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 12:36:36,175 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 12:36:36,176 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 12:36:38,990 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 12:36:38,991 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 12:37:18,435 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 12:37:18,651 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 12:37:41,180 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 12:37:41,386 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 12:38:07,244 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 12:56:20,488 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-09-04 13:00:36,784 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 13:00:36,785 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 13:00:36,905 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 13:00:36,906 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 13:01:25,158 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:01:25,369 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:01:56,193 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:01:56,400 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:02:29,913 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 13:09:27,548 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 13:09:27,550 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 13:09:30,616 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 13:09:30,616 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 13:10:29,709 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:10:29,920 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:10:40,823 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:10:41,028 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:11:10,533 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 13:24:52,200 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-04 13:24:52,200 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 200
+2025-09-04 13:24:52,221 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-09-04 13:24:52,221 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-09-04 13:28:32,507 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 13:28:32,509 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 13:28:34,302 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 13:28:34,317 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 13:29:08,727 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:29:08,971 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:29:33,441 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:29:33,647 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:30:04,493 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 13:35:48,327 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 13:35:48,327 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 13:35:48,443 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 13:35:48,443 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 13:36:33,519 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:36:33,746 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:36:52,264 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:36:52,462 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:37:20,231 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 13:46:03,865 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 13:46:03,867 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 13:46:03,994 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 13:46:04,011 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 13:46:45,560 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:46:45,781 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:47:02,106 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:47:02,309 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:47:26,992 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 13:51:17,929 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 13:51:17,929 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 13:51:18,040 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 13:51:18,055 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 13:52:06,163 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:52:06,394 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:52:23,115 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:52:23,316 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:52:49,030 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 13:58:47,399 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 13:58:47,402 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 13:58:47,516 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 13:58:47,516 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 13:59:26,832 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:59:27,055 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 13:59:42,159 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 13:59:42,356 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 14:00:14,195 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 14:17:17,981 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-04 14:17:17,982 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-04 14:17:27,852 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-04 14:17:27,864 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-04 14:18:12,215 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 14:18:12,437 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 14:18:28,708 - INFO - Incoming request: POST http://127.0.0.1:8000/users/login
+2025-09-04 14:18:28,904 - INFO - Completed request: POST http://127.0.0.1:8000/users/login with status 200
+2025-09-04 14:19:12,660 - INFO - Incoming request: POST http://127.0.0.1:8000/reviews/
+2025-09-04 14:19:12,693 - INFO - Completed request: POST http://127.0.0.1:8000/reviews/ with status 201
+2025-09-04 14:19:48,152 - INFO - Incoming request: GET http://127.0.0.1:8000/reviews/book/1
+2025-09-04 14:19:48,158 - INFO - Completed request: GET http://127.0.0.1:8000/reviews/book/1 with status 200
+2025-09-07 21:17:55,020 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-09-07 21:17:55,021 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-09-07 21:17:55,042 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-09-07 21:17:55,042 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-09-07 21:18:06,181 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-09-07 21:18:06,181 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-09-07 21:18:07,870 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-09-07 21:18:07,881 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-09-07 21:18:20,018 - INFO - Incoming request: GET http://127.0.0.1:8000/ping
+2025-09-07 21:18:20,020 - INFO - Completed request: GET http://127.0.0.1:8000/ping with status 200
