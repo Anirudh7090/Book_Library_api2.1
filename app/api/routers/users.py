@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from fastapi.security import OAuth2PasswordRequestForm
 from datetime import timedelta
 
-from app.db.db import get_db           # Ensure your get_db session is in db.py
+from app.db.db import get_db           
 from app.models.models import User
 from app.schemas.schemas import UserCreate, User as UserSchema, Token
 from app.utils import get_password_hash, verify_password
