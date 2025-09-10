@@ -11,7 +11,7 @@ from alembic import op
 import sqlalchemy as sa
 
 
-# revision identifiers, used by Alembic.
+
 revision: str = 'ff25c5328b64'
 down_revision: Union[str, Sequence[str], None] = '1d8542fd9741'
 branch_labels: Union[str, Sequence[str], None] = None
@@ -20,10 +20,10 @@ depends_on: Union[str, Sequence[str], None] = None
 
 def upgrade() -> None:
     """Upgrade schema."""
-    # Drop the 'author' column from 'books' table
+    
     op.drop_column('books', 'author')
 
-    # Create 'authors' table
+    
     op.create_table(
         'authors',
         sa.Column('id', sa.Integer(), primary_key=True),
@@ -32,7 +32,7 @@ def upgrade() -> None:
         sa.Column('birth_date', sa.Date(), nullable=True),
         sa.Column('nationality', sa.String(), nullable=True),
     )
-    # Create association table 'book_author'
+    
     op.create_table(
         'book_author',
         sa.Column('book_id', sa.Integer(), sa.ForeignKey('books.id', ondelete='CASCADE'), primary_key=True),
@@ -42,9 +42,9 @@ def upgrade() -> None:
 
 def downgrade() -> None:
     """Downgrade schema."""
-    # Drop association table and authors table
+    
     op.drop_table('book_author')
     op.drop_table('authors')
 
-    # Add the 'author' column back to 'books' table
+    
     op.add_column('books', sa.Column('author', sa.VARCHAR(), nullable=False))
