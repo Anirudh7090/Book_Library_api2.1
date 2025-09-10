@@ -31,13 +31,13 @@ class BookBase(BaseModel):
 
 
 class BookCreate(BookBase):
-    authors: List[AuthorCreate]  # List of authors during creation
+    authors: List[AuthorCreate]  
     cover_image: Optional[str] = None
 
 
 class Book(BookBase):
     id: int
-    authors: List[Author]  # List of authors in response
+    authors: List[Author]  
     cover_image: Optional[str] = None
 
     class Config:
@@ -51,13 +51,13 @@ class BookUpdate(BaseModel):
     publication_year: Optional[int] = None
     description: Optional[str] = None
     cover_image: Optional[str] = None
-    authors: Optional[List[AuthorCreate]] = None  # Support updating authors
+    authors: Optional[List[AuthorCreate]] = None  
 
     class Config:
         orm_mode = True
 
 
-# New schemas for User
+
 
 class UserBase(BaseModel):
     email: EmailStr
@@ -66,7 +66,7 @@ class UserBase(BaseModel):
 
 class UserCreate(UserBase):
     password: constr(min_length=8)
-    role: str = "Member"  # Default role assignment
+    role: str = "Member"  
 
     @validator('password')
     def password_strength(cls, v):
@@ -102,7 +102,7 @@ class Token(BaseModel):
 class TokenData(BaseModel):
     email: Optional[str] = None
     role: Optional[str] = None
-    id: Optional[int] = None  # Added id field
+    id: Optional[int] = None  
 
 
 class UserLogin(BaseModel):
@@ -113,7 +113,7 @@ class UserLogin(BaseModel):
 # Schemas for Reviews
 
 class ReviewBase(BaseModel):
-    rating: int = ...  # Required
+    rating: int = ...  
     text: Optional[str] = None
 
     class Config:
@@ -121,7 +121,7 @@ class ReviewBase(BaseModel):
 
 
 class ReviewCreate(ReviewBase):
-    book_id: int  # Required book id for the review
+    book_id: int  
 
 
 class ReviewOut(ReviewBase):
