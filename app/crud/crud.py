@@ -4,7 +4,7 @@ from app.models.models import Book, Author
 from app.schemas.schemas import BookCreate, BookUpdate, AuthorCreate
 
 
-# CRUD for Author
+
 
 def get_author_by_id(db: Session, author_id: int) -> Optional[Author]:
     return db.query(Author).filter(Author.id == author_id).first()
@@ -28,7 +28,7 @@ def list_authors(db: Session, skip: int = 0, limit: int = 10) -> List[Author]:
     return db.query(Author).offset(skip).limit(limit).all()
 
 
-# CRUD for Book with multi-author support
+
 
 def create_book(db: Session, book_create: BookCreate) -> Book:
     authors = []
