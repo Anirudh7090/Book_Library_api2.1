@@ -28,15 +28,15 @@ def ping():
     print("Ping endpoint called")
     return {"message": "pong"}
 
-# Include routers
+
 app.include_router(users_router, prefix="/users", tags=["users"])
 app.include_router(reviews.router)
 
-# Static directory for file uploads
+
 STATIC_DIR = "../static"
 os.makedirs(STATIC_DIR, exist_ok=True)
 
-# Database session dependency
+
 def get_db():
     db = SessionLocal()
     try:
@@ -44,7 +44,7 @@ def get_db():
     finally:
         db.close()
 
-# Global exception handler
+
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
     print(f"Unhandled exception: {exc}")
@@ -54,7 +54,7 @@ async def global_exception_handler(request: Request, exc: Exception):
         content={"detail": "Internal Server Error"}
     )
 
-# Admin role check dependency
+
 def admin_required(current_user: schemas.TokenData = Depends(get_current_user)):
     if not hasattr(current_user, "role") or current_user.role.lower() != "admin":
         raise HTTPException(
@@ -63,7 +63,7 @@ def admin_required(current_user: schemas.TokenData = Depends(get_current_user)):
         )
     return current_user
 
-# Request logging middleware
+
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     utils.log_info(f"Incoming request: {request.method} {request.url}")
@@ -71,7 +71,7 @@ async def log_requests(request: Request, call_next):
     utils.log_info(f"Completed request: {request.method} {request.url} with status {response.status_code}")
     return response
 
-# Create book endpoint
+
 @app.post("/books/", response_model=schemas.Book)
 def create_book(
     book: str = Form(...),
@@ -104,7 +104,7 @@ def create_book(
         print("Error creating book:", e)
         raise HTTPException(status_code=500, detail=f"Internal error creating book: {str(e)}")
 
-# List books endpoint
+
 @app.get("/books/", response_model=List[schemas.Book])
 def list_books(
     skip: int = 0,
@@ -126,7 +126,7 @@ def list_books(
     books = query.offset(skip).limit(limit).all()
     return books
 
-# Get single book endpoint
+
 @app.get("/books/{book_id}", response_model=schemas.Book)
 def get_book(
     book_id: int,
@@ -138,7 +138,7 @@ def get_book(
         raise HTTPException(status_code=404, detail="Book not found")
     return book
 
-# Delete book endpoint
+
 @app.delete("/books/{book_id}")
 def delete_book(
     book_id: int,
@@ -156,7 +156,7 @@ def delete_book(
     utils.log_info(f"Deleted book id {book_id}")
     return {"detail": "Book deleted successfully"}
 
-# Update book endpoint
+
 @app.patch("/books/{book_id}", response_model=schemas.Book)
 def update_book(
     book_id: int = Path(..., description="ID of the book to update"),
