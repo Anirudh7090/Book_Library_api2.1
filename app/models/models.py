@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship
 import sqlalchemy as sa
 from app.db.db import Base
 
-# Association table for many-to-many relation between books and authors
+
 book_author_table = Table(
     "book_author",
     Base.metadata,
