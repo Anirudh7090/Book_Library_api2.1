@@ -13,14 +13,14 @@ logging.basicConfig(
 )
 
 def log_info(message: str):
-    print(message)  # Print to terminal console
-    logging.info(message)  # Write to log file
+    print(message) 
+    logging.info(message)  
 
 def log_error(message: str):
-    print(message)  # Print to terminal console
-    logging.error(message)  # Write to log file
+    print(message)  
+    logging.error(message)  
 
-# Password hashing functions
+
 def get_password_hash(password: str) -> str:
     return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
 
