@@ -7,21 +7,19 @@ from sqlalchemy import pool
 
 from alembic import context
 
-# this is the Alembic Config object, which provides
-# access to the values within the .ini file in use.
 config = context.config
 
-# Interpret the config file for Python logging.
+
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# Add your project directory to the PYTHONPATH here:
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Import your SQLAlchemy Base object here:
+
 from app.db.db import Base
 
-# Set target_metadata for 'autogenerate' support
+
 target_metadata = Base.metadata
 
 
